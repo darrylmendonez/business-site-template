@@ -44,6 +44,7 @@ class Blog extends Component {
       <div className="row">
         <div className="col-md-10 offset-md-1">
           <h4 className="mt-4">Blog Posts</h4>
+          <small><em>Fetched from JSONPlaceholder via axios.</em></small>
           {postList}
         </div>
       </div>

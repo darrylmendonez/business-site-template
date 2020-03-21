@@ -38,6 +38,16 @@ class About extends Component {
     return (
       <div className="row">
         <div className="col-md-10 offset-md-1">
+            <br />
+            <div class="card bg-light mb-3">
+              <div class="card-body">
+                <p class="card-text">
+                  This site is a basic business site with home, products, about, blog, about, & contact pages. Built with react, react-router-dom, redux, jsonplaceholder & axios.<br />
+                  <br />
+                  <a class="btn btn-secondary" href="https://github.com/darrylmendonez/business-site-template.git" target="_blank">View repo</a>
+                </p>
+              </div>
+            </div>
           <h4 className="mt-4">{aboutTitle}</h4>
           {postList}
         </div>

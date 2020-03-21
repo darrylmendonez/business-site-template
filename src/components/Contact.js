@@ -48,7 +48,8 @@ class Contact extends Component {
 
     const successMsg = this.state.msgJustSent ? (
       <span id="success-msg" className={'text-success pt-5 ml-2 ' + this.state.animateIn}>
-        <i className="fa fa-check-circle-o" aria-hidden="true"></i> Your message has been sent.
+        <i className="fa fa-check-circle-o" aria-hidden="true"></i> Your message has been sent.<br />
+        <small><em><code>Not really though ;)</code></em></small>
       </span>
     ) : (
       <span></span>
